@@ -1,32 +1,26 @@
-.titulo-principal{
+.tituloprinc{
   padding-left: 20px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(10deg, white, blue, red, white, blue, red,  white, blue, red);
+  border: black solid 3px;
+  border-radius: 30px;
 }
 
-.principal{
-  background-color: lightblue;
+.principal {
+  background-color: #CCCCCC; 
   padding: 30px;
-  
 }
 
-.banner{
+.banner {
   width: 100%;
 }
 
-h1 {
-  
-  color: white;
-      background: linear-gradient(10deg, purple, blue, red, purple, blue, red);
-      border: indigo solid 3px;
-  border-radius: 10px;
-  }
+.textocent {
+  text-align: center;
 }
 
 p {
- text-align: center; 
-
-}
-
-.texto-centralizado{
   text-align: center;
 }
 
@@ -35,29 +29,25 @@ p {
 }
 
 em b {
-color: purple;
-
+  color: blue;
 }
 
-.beneficios{
- background-color: gray;
+.beneficios {
+  background-color: #FFFFFF;
   padding: 20px;
-  
 }
 
-ul{
+ul {
   display: inline-block;
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
 }
 
-.item{
+.item {
   font-style: italic;
 }
 
-.imagem-beneficios{
+.imagem-beneficio {
   width: 50%;
-  
-  
 }
