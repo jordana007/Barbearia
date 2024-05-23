@@ -3,7 +3,7 @@
   text-align: center;
   color: black;
   background: linear-gradient(10deg, white, blue, red, white, blue, red,  white, blue, red);
-  border: black solid 3px;
+  border: black double 3px;
   border-radius: 30px;
 }
 
