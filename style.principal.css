@@ -168,8 +168,17 @@ titulocent{
 }
 
 
+.principal{
+  background: #FEFEFE;
+  padding: 1em 0;
+  width:940px;
+  margin: 0 auto;
+}
+
+
 .principal p{
   margin: 0 0 1em;
+
 }
 
 .principal strong{
@@ -189,7 +198,14 @@ titulocent{
 
 .mapa{
   padding: 3em 0;
+  margin: 0 auto;
+  background: linear-gradient(#FEFEFE, #888888);
   
+}
+
+.mapa-conteudo{
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa p{
@@ -201,3 +217,21 @@ titulocent{
   width: 560px;
   margin: 1em auto;:
 }
+
+.beneficios{
+  padding: 3e 0;
+  background: #888888;
+  margin: 0 auto;
+}
+
+.lista-beneficios{
+  width: 40%,;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagem-beneficios{
+  width: 50%;
+  
+}
+
