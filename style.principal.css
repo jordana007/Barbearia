@@ -235,3 +235,27 @@ titulocent{
   
 }
 
+.textoprinc: first-letter{
+  color: red;
+}
+
+p: first-line{
+  font-style: italic;
+}
+
+.textocent: before{
+  content: "[";
+  
+}
+
+.textocent: after{
+  content: "]";
+}
+
+.item: after{
+  content: "★";
+}
+
+.item: first-child{
+  font-weight: bold;
+}
