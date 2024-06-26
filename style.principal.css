@@ -165,6 +165,7 @@ titulocent{
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  coloe: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -232,6 +233,12 @@ titulocent{
 
 .imagem-beneficios{
   width: 50%;
+  opacity: 0.6;
+  transition: 1s;
+}
+
+.imagem-beneficios:hover{
+  opacity: 1;
   
 }
 
@@ -259,3 +266,21 @@ p: first-line{
 .item: first-child{
   font-weight: bold;
 }
+
+/*
+. > p{
+  background: red;
+}
+
+img + p{
+  background: purple;
+}
+
+img ~ p{
+  background: blue;
+}
+
+.principal p:not(#missao){
+  background: orange;
+}
+*/
